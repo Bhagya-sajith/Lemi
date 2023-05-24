@@ -1,5 +1,6 @@
 HealthSync
 "Efficiency meets care: Seamlessly manage appointments and access lab reports with ease."
+
 Description:
 HealthSync is a comprehensive and user-friendly open-source website that aims to revolutionize the
 way appointment management and lab report access are handled in the healthcare industry. It offers
@@ -9,8 +10,8 @@ Key Features:
 1. Appointment Management: HealthSync provides a centralized system where patients can
 schedule, reschedule, or cancel appointments conveniently. It offers real-time availability of
 healthcare providers, allowing patients to choose their preferred time slots.
-2. Lab Report Access: This project includes a secure and accessible repository for storing and
 
+2. Lab Report Access: This project includes a secure and accessible repository for storing and
 retrieving lab reports. Patients can conveniently view and download their reports through a user-
 friendly interface, ensuring quick and efficient access to crucial medical information.
 
