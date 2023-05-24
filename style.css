@@ -1,0 +1,694 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    min-height:100vh;
+    width: 100%;
+    background-image:url(images/bg1.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 1%;
+}
+.logo{
+    width: 140px;
+    cursor: pointer;
+}
+.navbar li{
+    list-style: none;
+    display: inline-block;
+    margin: 13px 70px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: rgb(41, 181, 150);
+    font-size: 30px;
+}
+.navbar li a:hover{
+    background-color: rgb(4, 132, 100);
+    border-radius: 43px;
+    color:  rgb(176, 184, 182);
+}
+.btn{
+    background-color: rgb(232, 107, 107);
+    color:white;
+    padding: 5px 10px;
+    border-radius: 23px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.container{
+    padding: 0 7%;
+}
+.container h2{
+    color: rgb(34, 57, 57);
+    font-size: 35px;
+    font-weight: 300px;
+}
+.header h1{
+    font-size: 40px;
+    font-weight: 500;
+    color: rgb(8, 61, 61);
+    text-align: center;
+    padding-top: 15%;
+}
+.search-bar{
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    margin: 30px auto;
+    padding: 6px 10px;
+    border-radius: 23px;
+}
+.search-bar form{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.search-bar form input{
+    display: block;
+    border: 0;
+    outline: none;
+}
+.search-bar form button img{
+    width: 23px;
+    margin-top: 7px;
+}
+.loc{
+    flex: 1;
+}
+.search-bar form label{
+    font-weight: 600;
+}
+.subtitle{
+    margin: 50px 0 20px;
+    font-size: 2.2vw;
+    font-weight: 500;
+    color: white;
+
+}
+.exclusives{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-gap:10px;
+  
+}
+.exclusives div img{
+    width: 175px;
+    border-radius: 30px;
+}
+.exclusives div{
+    position: relative;
+}
+.exclusives div span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+}
+.trending {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    margin-bottom: 10px;
+    grid-gap:10px;
+}
+.trending div img{
+    width: 200px;
+    border-radius: 10px;
+}
+.trending h3{
+    font-weight: 600;
+    margin-top: 10px;
+    color: white;
+}
+.cta{
+    margin: 80px 0;
+    background-image: linear-gradient(to right,#3f2321,transparent),url(images/banner2.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    padding: 2%;
+    color: #fff;
+ }
+  .cta h3{
+    font-size: 28px;
+    line-height: 2.3vw;
+    font-weight: 500;
+  }
+  .cta p{
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  .cta-btn{
+    background-color: rgb(174, 107, 107);
+    color: white;
+    text-decoration: none;
+    padding: 6px 30px;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-top: 20px;
+    display: inline-block;
+  }
+  
+  .cta-btn:hover{
+    background-color: rgb(208, 181, 181);
+    color: black;
+  }
+  .stories{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    margin-bottom: 10px;
+    grid-gap:19px;
+    color: white;
+    padding: 12px 4px;
+}
+.stories div img{
+    width: 272px;
+    height: 255px;
+    border-radius: 30px;
+}
+.stories div{
+    position: relative;
+    text-align: center;
+}
+.stories p{
+   width: 80%;
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:black;
+    font-size: 30px;
+}
+.sub-title{
+    color: white;
+}
+.s-btn{
+    text-decoration: none;
+    background-color: rgb(232, 107, 107);
+    color: white;
+    width: 80%;
+    max-width: 220px;
+    display: block;
+    text-align: center;
+    margin: 60px auto;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.msg{
+    text-align: center;
+    margin: 80px 10px;
+    color: rgb(55, 88, 81);
+    font-size: 27px;
+}
+.msg h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    color: rgb(7, 68, 68);
+}
+.footer a{
+    text-transform: none;
+    color: #074845;
+    font-size: 22px;
+    margin: 0 10px;
+}
+.footer hr{
+    background: #999;
+    height: 1px;
+    width: 100%;
+    border: 0;
+    margin: 20px 0;
+}
+.footer{
+    margin: 80px 0 10px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.footer p{
+    padding-bottom: 15px;
+    padding-top: 10px;
+} 
+.active{
+    position: relative;
+}
+.active::after{
+    content: '';
+    background: #fff;
+    width: 25px;
+    height: 2px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -12px;
+    border-radius: 2px;
+}
+nav .fa-bars{
+    display: none;
+}
+@media only screen and (max-width: 700px){
+    .logo{ 
+        position: fixed;
+        top: 4%;
+        left: 7%;
+
+    }
+    nav{
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        display: inline-block;
+        width: 100%;
+        padding: 100px 7% 0;
+        background: #000;
+        text-align: right;
+        max-height: 100px;
+        overflow: hidden;
+        transition: max-height 0.5s ;
+    }
+    nav .navbar li{
+        margin-top: 10px 0;
+        display: block;
+    }
+    .btn{
+        margin: 15px 0 30px;
+        display: inline-block;
+    }
+    nav .fa-bars{
+        display: block;
+        position: fixed;
+        top: 4%;
+        right: 7%;
+        color: white;
+        font-size: 20px;
+
+    }
+    .active::after{
+        
+        left: -40px;
+        transform: translate(0,-50%); 
+        bottom: 50%;
+    } 
+    .hidemenu{
+        max-height: 300px;
+    }
+    .header h1{
+        padding-top:200px ;
+        font-size: 7vw;
+    }
+    .search-bar{
+        width: 90%;
+        margin: 30px auto;
+        padding: 20px 10px 30px;
+        border-radius: 5px;
+        position: relative;
+    }
+    .search-bar form{
+        display: block ;
+    }
+    .search-bar form input{
+        border-bottom:1px solid #ddd;
+        width: 100%;
+        margin-top:10px;
+        margin-bottom: 10px;
+    }
+    .search-bar form button{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%,50%);
+    }
+    .subtitle{
+        font-size: 20px;
+    }
+    .cta{
+        padding: 15% 5%;
+    }
+    .cta h3{
+        font-size: 15px;
+        line-height: 8vw;
+    }
+    .cta p{
+        font-size: 14px;
+    }
+    .cta-btn{
+        padding:6px 15px;
+         border-radius: 4px;
+         margin-top: 10px;
+         font-size: 14px;
+    }
+    .stories btn{
+        font-size: 20px;
+    }
+    .msg{
+        font-size: 15px;
+    }
+}
+
+/*Listing*/
+.nbar{
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0,0, 0, 0.05);
+}
+.nbar .navbar li a{
+    color: black;
+}
+.nbar .btn{
+background: rgb(231, 102, 102);
+color: white;
+}
+nav.nbar .fa-bars{
+   color: black;
+}
+.nbar .active::after{
+    background: rgb(231, 102, 102);  
+}
+.list-container{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.left-col{
+    flex-basis: 70%;
+}
+.right-col{
+    flex-basis: 25%;
+}
+.left-col h1{
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 17px;
+}
+.house{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 0;
+    border-top: 1px solid #ccc;
+}
+.house-img{
+    flex-basis: 40%;
+}
+.house-info{
+    flex-basis: 58%;
+    color: #555;
+    font-size: 20px;
+}
+
+.house-img img{
+    width: 100%;
+    border-radius: 12px;
+}
+.house-info h3{
+    font-weight: 600;
+    color: #333;
+    font-size: 22px;
+    margin: 4px 0;
+}
+.house-info i{
+    color: rgb(204, 104, 104);
+    font-size: 18px;
+    margin: 10px 1px;
+}
+.house-price{
+    text-align: left;
+}
+.house-price h4{
+    font-size: 20px;
+}
+.house-price h4 span{
+    font-size: 16px;
+    font-weight: 500;
+}
+.side-bar{
+    border: 2px solid #421212;
+    padding: 20px 30px;
+    margin-top: 30px;
+}
+.side-bar h2{
+    font-weight: 500;
+}
+.filter{
+    display: flex;
+    align-items: center;
+    color: #555;
+    margin-bottom: 10px;
+}
+.filter p{
+    flex: 1;
+}
+.filter input{
+    margin-right: 15px;
+    cursor: pointer;
+}
+.sidebar-link{
+    text-align: right;
+    margin: 20px;
+}
+.sidebar-link a{
+    text-decoration: none;
+
+}
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+
+}
+.pagination span{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.pagination .curr{
+    background: rgb(55, 55, 55);
+    color: white;
+}
+
+@media only screen and (max-width:700px) {
+    .list-container{
+        margin: 150px;
+    }
+    .left-col,.right-col,.house-img,.house-info{
+        flex-basis: 22px;
+    }
+    .left-col h1{
+        font-size: 22px;
+    }
+    .house-info h3{
+        font-size: 18px;
+    }
+
+    .house-info i{
+        font-size: 15px;
+    }
+   .pagination span{
+    margin:10px 2px ;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+   }
+}
+.house-det{
+    padding: 0 12%;
+}
+.house-title{
+    margin-top: 50px;
+}
+.house-title h1{ 
+    font-weight: 600;
+}
+.house-title .row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px 0;
+}
+.house-title span{
+    margin: 0 20px;
+}
+.house-title i{
+    color: rgb(217, 96, 96);
+    font-size: 15px;
+}
+.gallery{
+    display: grid;
+    grid-gap:10px;
+    grid-template-areas: 'first first . .'' first first . .';
+    margin: 20px 0;
+}
+.gallery div img{
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+.gimg1{
+    grid-area: first;
+}
+.small-details h4{
+font-size: 22;
+text-align: right;
+}
+.small-details h2{
+    font-weight: 500    ;
+}
+.line{
+        border: 0;
+    height: 1px;
+    background: #ccc;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px 0 50px;
+}
+.check-form{
+    margin: 30px 0;
+    background: #fff;
+    box-shadow: 0 0 30px rgba(0,0, 0, 0.3);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 50px;
+}
+.check-form label{
+    display: block;
+}
+.check-form div{
+    padding: 20px;
+}
+.check-form input{
+    background: transparent;
+    border: 0;
+    outline: none;
+
+} 
+.check-form button{
+    background: rgb(198, 80, 80);
+    border: 0;
+    outline: none;
+    color: #fff;
+    padding: 18px;
+    width: 350px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.guestfield{
+    flex: 1;
+}
+.details{
+    list-style: none;
+    margin: 50px 0;
+}
+.details li{
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #555;
+    position: relative;
+}
+.details li span{
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.details li i{
+    position: absolute;
+    top: 5px;
+    left: -40px;
+}
+.home-desc{
+    max-width: 700px;
+    margin-bottom: 50px;
+}
+.map{
+    margin: 50px 0;
+}
+.map iframe{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.map h3{
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.map b{
+    display: block;
+    margin-bottom: 16px;
+
+}
+.host{
+    display: flex;
+    align-items: center;
+}
+.host img{
+    width: 80px;
+    border-radius: 50%;
+}
+.host h2{
+    margin-bottom: 10px;
+font-weight: 500;
+}
+@media only screen and (max-width:700px){
+    .house-det{
+        margin-top: 150px;
+
+    }
+    .row p{
+       margin-top: 10px; 
+    }
+    .gallery{
+        grid-template-areas: 'first first''. .''f irst first''. .';
+    }
+    .small-details h2{
+        font-size: 20px;
+        margin-top: 24px;
+    }
+    .small-details h4{
+        font-size: 18px;
+        margin: 10px 0;
+     text-align: left;
+    }
+    .check-form{
+        padding:10px 30px ;
+    }
+    .check-form div{
+        padding: 20px 0;
+        width: 100%;
+    }
+    .check-form input{
+        border-bottom: 1px solid #ccc;
+        width: 100%;
+        padding-bottom: 5px ;
+    }
+    .check-form button{
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        border-radius: 4px;
+    }
+    .host{
+        display: block;
+        line-height: 28px;
+    }
+    .contact-host{
+        margin: 40px 0;
+    }
+}

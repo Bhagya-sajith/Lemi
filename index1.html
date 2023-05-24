@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAVEL WEBSITE</title>
+    <link rel="stylesheet" href="style.css" >
+    <script src="https://kit.fontawesome.com/7235f005a0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+    <nav id="nnav">
+        <img src="images/lo1.jpg" class="logo">
+        <ul class="navbar">
+            <li><a href="#" class="active">Hospitals</a></li>
+            <li><a href="facilities.html">Doctors</a></li>
+            <li><a href="doctors.html">Facilities</a></li>
+        </ul>
+        <a href="#" class="btn">BOOK NOW</a>
+        <i class="fas fa-bars" onclick="togglebtn()"></i>
+        </nav>
+    <div class="container">
+        <h1>Groundwork for happiness is good health </h1>
+        <div class="search-bar">
+        <form>
+            <div class="loc">
+                <label>Name</label>
+                <input type="text" placeholder="Enter Name">
+            </div>
+            <div>
+            <label>Age</label>
+                <input type="text" placeholder="Enter Age">
+            </div>
+            <div>
+                <label>Appt No.</label>
+                    <input type="text" placeholder="Appt No.">
+                </div>
+            <div>
+            <label>Doctor</label>
+            <input type="text" placeholder="Doctor Name">
+        </div>
+        <button type="submit"><img src="images/search.png"></button>
+        </form>
+    </div>
+    </div>
+    <div class="container">
+    
+        <h2 class="subtitle">Doctor Panel</h2>
+        <div class="trending">
+            <div>
+            <img src="images/dr1.jpg">
+            <h3>Dr.Asha</h3>
+        </div>
+        <div >
+            <img src="images/dr2.jpg">
+            <h3>Dr.Mansi</h3>
+        </div>
+        <div>
+            <img src="images/dr3.jpg">
+            <h3>Dr.Hema</h3>
+        </div>
+        <div>
+            <img src="images/dr4.jpg">
+            <h3>Dr.Sethu</h3>
+        </div>
+        <div>
+            <img src="images/dr5.jpg">
+            <h3>Dr.Sachin</h3>
+        </div>
+    </div>
+    <div class="cta">
+        <h3>Breathe <br>Let Go...</h3>
+        <p>Through intuitive interfaces and intelligent algorithms,<br> patients can easily schedule appointments based on availability, reducing wait times<br> and improving overall patient experience..</p>
+        <a href="#" class="cta-btn">Know More</a>
+    </div>
+    <h2 class="sub-title">Patient's Stories</h2>
+    <div class="stories">
+        <div>
+            <img src="images/p1.jpg">
+            <p>Light In The Dark</p>
+        </div>
+        <div>
+            <img src="images/pt2.jpg">
+            <p>Miracles do Happen.</p>
+        </div>
+        <div>
+            <img src="images/pt3.jpg">
+            <p>You have my deepest thanks.</p>
+        </div>
+        <div>
+            <img src="images/pt4.jpg">
+            <p>I'm eternally grateful.</p>
+        </div>
+    </div>
+    <a href="#" class="s-btn">Start Using  Now</a>
+    <div class="msg">
+        <h2>About ApnaHealth</h2>
+        <p>ApnaHealth focuses on developing a streamlined appointment management and
+            lab report access platform that aims to enhance the efficiency and convenience
+            of healthcare services. The platform offers a comprehensive solution by
+            integrating appointment scheduling, queue management, and seamless access to
+            lab reports for both patients and healthcare providers</p>
+    </div>
+    <div class="footer">
+        <a href="https://instagram.com"><i class="fa-brands fa-square-instagram"></i></a>
+        <a href="https://youtube.com"><i class="fa-brands fa-square-youtube"></i></a>
+        <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+        <hr>
+        <p>Copyright &c 2021,ApnaHealth </p>
+    </div>
+    
+    <script>
+        var nnav = document.getElementById("nnav");
+        function togglebtn(){
+            nnav.classList.toggle("hidemenu");
+        }
+    </script>
+</body>
+
+</html> 
